@@ -1,0 +1,37 @@
+.custom-jumbotron
+{
+    background-color: green;
+    margin-bottom: 0px;
+    padding-bottom: 500px;
+    background-image: url("/img/homepage/Rome1.jpg");
+    background-position: 0% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.custom-jumbotron-border
+{
+    background-image: linear-gradient(brown, white);
+    margin-bottom: -50px;
+    border-radius: 0%;
+}
+
+.spacer200top
+{
+    margin-top: 200px;
+}
+
+.green-icon-color
+{
+    color: green;
+}
+
+.homepage-custom-image-size
+{
+    height: 300px;
+    width: 600px;
+	border: 6px black solid;
+	border-radius: 50px;
+}
