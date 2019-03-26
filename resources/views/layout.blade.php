@@ -29,17 +29,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Waarom latijns?</a>
+                <a class="nav-link" href="/whylatin">Waarom latijns?</a>
                 </li>
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Lessen latijns
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Les 1</a>
+                    <a class="dropdown-item" href="/lessenlatijns">Intro lessen</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/les1">Les 1</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Les 2</a>
                     <div class="dropdown-divider"></div>
@@ -50,7 +52,9 @@
                     Latijnse quiz
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Quiz les 1</a>
+                    <a class="dropdown-item" href="/quizzenlatijns">Intro quizzen</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/quiz1">Quiz les 1</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Quiz les 2</a>
                     <div class="dropdown-divider"></div>
@@ -61,6 +65,8 @@
                     Forum
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/forum">Intro forum</a>
+                    <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Forum les 1</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Forum les 2</a>
