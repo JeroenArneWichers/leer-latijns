@@ -10,6 +10,7 @@ function check()
     var question8=document.quiz.question8.value;
     var question9=document.quiz.question9.value;
     var question10=document.quiz.question10.value;
+    var question11=document.quiz.question11.value;
     var correct=0;
 
     if (question1 == "De matroos is")
@@ -62,6 +63,11 @@ function check()
         correct++;
         document.getElementById("question10").style.color = "green";
     }
+    // if (question11 == "De boeren zijn")
+    // {
+    //     correct++;
+    //     document.getElementById("question11").style.color = "green";
+    // }
     
 
     document.getElementById("aftersubmit").style.visibility = "visible";
