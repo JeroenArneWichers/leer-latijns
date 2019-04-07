@@ -63,11 +63,11 @@ function check()
         correct++;
         document.getElementById("question10").style.color = "green";
     }
-    // if (question11 == "De boeren zijn")
-    // {
-    //     correct++;
-    //     document.getElementById("question11").style.color = "green";
-    // }
+    if (question11 == "De boeren zijn" && question11 != "De boer is")
+    {
+        correct++;
+        document.getElementById("question11").style.color = "green";
+    }
     
 
     document.getElementById("aftersubmit").style.visibility = "visible";

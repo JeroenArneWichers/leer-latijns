@@ -86,12 +86,12 @@
                 <br>
                 <br>
 
-                {{-- <p id="question11" class="font-weight-bold">Vertaal naar het nederlands: "Agricolae estis."</p>
-                <input type="radio" id="multiplechoice" name="question11" value="De boeren zijn"> De boeren zijn<br>
-                <input type="radio" id="multiplechoice" name="question11" value="De boer is"> De boer is<br>
+                <p id="question11" class="font-weight-bold">Vertaal naar het nederlands: "Agricolae estis."</p>
+                <input type="radio" id="mcoption" name="question11" value="De boeren zijn"> De boeren zijn<br>
+                <input type="radio" id="mcoption" name="question11" value="De boer is"> De boer is<br>
 
                 <br>
-                <br> --}}
+                <br>
                 
                 <input type="button" id="button" value="controleer mijn antwoorden" onclick="check();">
             </form>
