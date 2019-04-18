@@ -18,55 +18,99 @@ function check()
         correct++;
         document.getElementById("question1").style.color = "green";
     }
+    else 
+    {
+        document.getElementById("question1").style.color = "red";
+    }
     if (question2 == "De boeren zijn")
     {
         correct++;
         document.getElementById("question2").style.color = "green";
+    }
+    else 
+    {
+        document.getElementById("question2").style.color = "red";
     }
     if (question3 == "De vrouwen gaan het huis binnen")
     {
         correct++;
         document.getElementById("question3").style.color = "green";
     }
+    else 
+    {
+        document.getElementById("question3").style.color = "red";
+    }
     if (question4 == "Het meisje wandelt")
     {
         correct++;
         document.getElementById("question4").style.color = "green";
+    }
+    else 
+    {
+        document.getElementById("question4").style.color = "red";
     }
     if (question5 == "De vrouw prijst de slaven")
     {
         correct++;
         document.getElementById("question5").style.color = "green";
     }
+    else 
+    {
+        document.getElementById("question5").style.color = "red";
+    }
     if (question6 == "Het meisje is niet in de herberg")
     {
         correct++;
         document.getElementById("question6").style.color = "green";
+    }
+    else 
+    {
+        document.getElementById("question6").style.color = "red";
     }
     if (question7 == "De matrozen lopen op straat")
     {
         correct++;
         document.getElementById("question7").style.color = "green";
     }
+    else 
+    {
+        document.getElementById("question7").style.color = "red";
+    }
     if (question8 == "Het meisje huilt niet")
     {
         correct++;
         document.getElementById("question8").style.color = "green";
+    }
+    else 
+    {
+        document.getElementById("question8").style.color = "red";
     }
     if (question9 == "De matrozen zien de boer")
     {
         correct++;
         document.getElementById("question9").style.color = "green";
     }
+    else 
+    {
+        document.getElementById("question9").style.color = "red";
+    }
     if (question10 == "De matrozen zien de boeren niet")
     {
         correct++;
         document.getElementById("question10").style.color = "green";
     }
-    if (question11 == "De boeren zijn" && question11 != "De boer is")
+    else 
+    {
+        document.getElementById("question10").style.color = "red";
+    }
+    if (question11 == "De boeren zijn")
     {
         correct++;
         document.getElementById("question11").style.color = "green";
+    }
+    else 
+    {
+        document.getElementById("question11").style.color = "red";
     }
     
 

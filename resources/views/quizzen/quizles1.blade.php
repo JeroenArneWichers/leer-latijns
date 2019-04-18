@@ -20,7 +20,7 @@
     <div class="row spacer200top">
         <div class="col-lg-12 content order-lg-1 order-1">
             <h2 class="title">Quiz over de stof van les 1</h2>
-            <p>Let op! Hoofdlettergevoelig! Dus bijvoorbeeld: "De matroos is"</p>
+            <p>Let op! Hoofdlettergevoelig! Dus bijvoorbeeld: <span class="greenText">"De matroos is"</span> en niet <span class="redText">"de matroos is"</span></p>
 
                 <br>
                 <br>
